@@ -1,8 +1,9 @@
-## Snapshot of Neural Net in Excel :
+# Snapshot of Neural Net in Excel :
 
 ![myimage-alt-tag](NN-excel.JPG)
 
 ***********************************************************************************************************
+# Explanation of Forward & Backward Propagation :
 
 ![myimage-alt-tag](NNimage.JPG)
 
@@ -196,3 +197,15 @@ Thus,
 - w1= w1– ղ * (a_o1-t1) * a_o1*(1-a_o1) * w5 + (a_o2-t2) * a_o2*(1-a_o2) * w7 * a_h1* (1-a_h1) * i1
 
 ***********************************************************************************************************
+
+# Total Loss with different Learning Rate :
+
+![myimage-alt-tag](LRwithError.JPG)
+
+The smaller learning rate will result in very small updation in the weights and our model will take a lot of time to train and learn the optimal weights, and, a higher learning rate results in rapid changes and often results in a sub-optimal final set of weights. A desirable learning rate is low enough that the network converges to something useful, but high enough that it can be trained in reasonable time. Generally the learning rate is between 0 and 1.
+
+## Plot of loss with LR = [0.1,0.2,0.5,0.8,1.0,2.0]
+
+![myimage-alt-tag](LR-Total_loss.JPG)
+
+### In our case as the #epochs were very less and data was quite simple to see the above patter which happens in actual scenario

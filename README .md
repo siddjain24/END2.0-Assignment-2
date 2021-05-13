@@ -1,3 +1,8 @@
+## Snapshot of Neural Net in Excel :
+
+![myimage-alt-tag](NN-excel.JPG)
+
+***********************************************************************************************************
 
 ![myimage-alt-tag](NNimage.JPG)
 

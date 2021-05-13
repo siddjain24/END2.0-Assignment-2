@@ -208,4 +208,4 @@ The smaller learning rate will result in very small updation in the weights and 
 
 ![myimage-alt-tag](LR-Total_loss.JPG)
 
-### In our case as the #epochs were very less and data was quite simple to see the above patter which happens in actual scenario
+### In our case as the #epochs were very less and data was quite simple to see the above pattern which happens in actual scenario
